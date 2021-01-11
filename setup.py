@@ -2,8 +2,8 @@ import os
 import sys
 
 def setup():
-    os.system("mv main.py /usr/bin/runas.py")
-    os.system("mv launch.sh /usr/bin/runas");
+    os.system("cp main.py /usr/bin/runas.py")
+    os.system("cp launch.sh /usr/bin/runas");
     os.system("chmod +x /usr/bin/runas");
 
 def uninstall():
